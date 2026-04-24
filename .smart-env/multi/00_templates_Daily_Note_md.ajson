@@ -1,0 +1,2 @@
+
+"smart_sources:00_templates/Daily Note.md": {"path":"00_templates/Daily Note.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1fvcznn","at":1768801316687},"class_name":"SmartSource","last_import":{"mtime":1768801303692,"size":198,"at":1768801316688,"hash":"1fvcznn"},"blocks":{"#---frontmatter---":[1,8]},"outlinks":[],"metadata":{"creation date":"<% tp.file.creation_date(\"dddd Do MMMM YYYY HH:mm:ss\") %>","modification date":"<% tp.file.last_modified_date(\"dddd Do MMMM YYYY HH:mm:ss\") %>","tags":["#daily"],"status":["active"]},"task_lines":[]},

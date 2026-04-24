@@ -1,0 +1,2 @@
+
+"smart_sources:05_templates/Course Template.md": {"path":"05_templates/Course Template.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"w7d8jv","at":1776069683419},"class_name":"SmartSource","last_import":{"mtime":1776069681686,"size":160,"at":1776069683420,"hash":"w7d8jv"},"blocks":{"#---frontmatter---":[1,7]},"outlinks":[],"metadata":{"creation date":"<% tp.file.creation_date() %>","modification date":"<% tp.file.last_modified_date(\"dddd Do MMMM YYYY HH:mm:ss\") %>","tags":["#course"],"source":null},"task_lines":[],"tasks":{},"codeblock_ranges":[]},

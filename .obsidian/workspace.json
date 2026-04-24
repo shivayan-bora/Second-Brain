@@ -1,0 +1,303 @@
+{
+  "main": {
+    "id": "a264ee3ce358aee4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e561be22d5115d92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dad57415079757d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/KodeKloud/Golang/Golang.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Golang"
+            }
+          },
+          {
+            "id": "b9c07f5083ff0ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/KodeKloud/Golang/01_Data Type and Variables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_Data Type and Variables"
+            }
+          },
+          {
+            "id": "80e51958347a3bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/Total TypeScript/TypeScript Pro Essentials.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TypeScript Pro Essentials"
+            }
+          },
+          {
+            "id": "5f12740081b88f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/Total TypeScript/00_Kickstart your TypeScript Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00_Kickstart your TypeScript Setup"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35b915c4321124ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "248f210a74c1581e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d33279f293e0f289",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e9086e40f6ac8fb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9daae21f5b4cbb66",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.51103591918945,
+    "collapsed": true
+  },
+  "right": {
+    "id": "36b4643377f61956",
+    "type": "split",
+    "children": [
+      {
+        "id": "91f6639d05516b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1298e0d27ad93e19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_notes/c/Compilation - C.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Compilation - C"
+            }
+          },
+          {
+            "id": "9f2a4af08ead5fa0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02_notes/c/Compilation - C.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Compilation - C"
+            }
+          },
+          {
+            "id": "98651a9275c30c20",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a293a29fc4568616",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_templates/Project Template.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Project Template"
+            }
+          },
+          {
+            "id": "dabdd120dcd6b8a2",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "da14a3de4808e2d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "325ca31bc9f8d863",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-lookup-view"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 919.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true,
+      "markdown-importer:Open format converter": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "5f12740081b88f34",
+  "lastOpenFiles": [
+    "08_assets/Pasted image 20260424213042.png",
+    "04_courses/KodeKloud/Golang/Golang.md",
+    "04_courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
+    "04_courses/Epic Web/Programming Foundations/Programming Foundations.md",
+    "04_courses/KodeKloud/Golang/01_Data Type and Variables.md",
+    "04_courses/Total TypeScript/00_Kickstart your TypeScript Setup.md",
+    "04_courses/Total TypeScript/TypeScript Pro Essentials.md",
+    "04_courses/Total TypeScript/Total TypeScript.md",
+    "04_courses/Total TypeScript",
+    "04_courses/Three Dots Labs Academy/Go in One Evening/07_errors.md",
+    "04_courses/Three Dots Labs Academy/Go in One Evening/02_functions.md",
+    "04_courses/Three Dots Labs Academy/Go in One Evening/Go in One Evening.md",
+    "04_courses/Epic React/React Fundamentals/02_Using JSX.md",
+    "04_courses/Epic React/React Fundamentals/React Fundamentals.md",
+    "04_courses/KodeKloud/Golang/00_Introduction.md",
+    "04_courses/Epic Web/Epic Web.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "04_courses/KodeKloud/KodeKloud.md",
+    "04_courses/Three Dots Labs Academy/Three Dots Labs Academy.md",
+    "04_courses/KodeKloud/AWS For Beginners with Hands-On LabsUntitled/AWS For Beginners with Hands-On Labs.md",
+    "04_courses/KodeKloud/AWS For Beginners with Hands-On LabsUntitled",
+    "04_courses/Epic Web/Programming Foundations",
+    "04_courses/Epic React/Epic React.md",
+    "04_courses/fireshiv.dev/fireship.dev.md",
+    "04_courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md",
+    "05_books/Learning Go/00_Setting up your go environment.md",
+    "05_books/Zero Trust Networks/Zero Trust Networks.md",
+    "05_books/Staff Engineer - Leadership beyond the management track/Staff Engineer - Leadership beyond the management track.md",
+    "04_courses/Epic Web",
+    "04_courses/KodeKloud/Golang",
+    "04_courses/Epic React/React Fundamentals",
+    "04_courses/Three Dots Labs Academy",
+    "04_courses/fireshiv.dev",
+    "04_courses/KodeKloud",
+    "04_courses/Epic React",
+    "03_assets/Pasted image 20251009120028.png",
+    "03_assets/Pasted image 20260314174308.png",
+    "03_assets/Pasted image 20260314174131.png",
+    "03_assets/Pasted image 20260314173054.png",
+    "03_assets/Pasted image 20260314172833.png",
+    "03_assets/Pasted image 20260314172008.png",
+    "03_assets/Pasted image 20260311142733.png",
+    "03_assets/Pasted image 20260311141051.png",
+    "03_assets/Pasted image 20260311134517.png",
+    "03_assets/Pasted image 20260311134008.png"
+  ]
+}

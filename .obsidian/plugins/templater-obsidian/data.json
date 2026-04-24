@@ -1,0 +1,50 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "06_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01_projects",
+      "template": "06_templates/Project Template.md"
+    },
+    {
+      "folder": "03_knowledge",
+      "template": "06_templates/Note Template.md"
+    },
+    {
+      "folder": "04_courses",
+      "template": "06_templates/Course Template.md"
+    },
+    {
+      "folder": "05_books",
+      "template": "06_templates/Book Template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}
