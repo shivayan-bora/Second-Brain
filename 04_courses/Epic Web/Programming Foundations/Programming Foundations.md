@@ -8,3 +8,4 @@ status:
   - in-progress
 ---
 - [[00_Expressions and Outputs]]
+- [[01_Variables and Immutability]]

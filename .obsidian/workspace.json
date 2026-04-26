@@ -8,7 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dad57415079757d",
+            "id": "80e51958347a3bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/Epic Web/Programming Foundations/Programming Foundations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programming Foundations"
+            }
+          },
+          {
+            "id": "62ac54b115e8acfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_Variables and Immutability"
+            }
+          },
+          {
+            "id": "0572728cb101d946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_projects/Build your own HTTP Server in TypeScript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Build your own HTTP Server in TypeScript"
+            }
+          },
+          {
+            "id": "1670d9609207f54a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +64,7 @@
             }
           },
           {
-            "id": "b9c07f5083ff0ce3",
+            "id": "0c6a78a954377667",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,37 +76,9 @@
               "icon": "lucide-file",
               "title": "01_Data Type and Variables"
             }
-          },
-          {
-            "id": "80e51958347a3bb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_courses/Total TypeScript/TypeScript Pro Essentials.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TypeScript Pro Essentials"
-            }
-          },
-          {
-            "id": "5f12740081b88f34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_courses/Total TypeScript/00_Kickstart your TypeScript Setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00_Kickstart your TypeScript Setup"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,16 +265,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5f12740081b88f34",
+  "active": "62ac54b115e8acfd",
   "lastOpenFiles": [
-    "08_assets/Pasted image 20260424213042.png",
-    "04_courses/KodeKloud/Golang/Golang.md",
     "04_courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
     "04_courses/Epic Web/Programming Foundations/Programming Foundations.md",
+    "04_courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
+    "01_projects/Build your own HTTP Server in TypeScript.md",
     "04_courses/KodeKloud/Golang/01_Data Type and Variables.md",
+    "04_courses/KodeKloud/Golang/Golang.md",
     "04_courses/Total TypeScript/00_Kickstart your TypeScript Setup.md",
     "04_courses/Total TypeScript/TypeScript Pro Essentials.md",
     "04_courses/Total TypeScript/Total TypeScript.md",
+    "08_assets/Pasted image 20260424213042.png",
     "04_courses/Total TypeScript",
     "04_courses/Three Dots Labs Academy/Go in One Evening/07_errors.md",
     "04_courses/Three Dots Labs Academy/Go in One Evening/02_functions.md",
@@ -277,16 +293,15 @@
     "04_courses/KodeKloud/AWS For Beginners with Hands-On LabsUntitled",
     "04_courses/Epic Web/Programming Foundations",
     "04_courses/Epic React/Epic React.md",
-    "04_courses/fireshiv.dev/fireship.dev.md",
+    "04_courses/fireship.dev/fireship.dev.md",
     "04_courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md",
     "05_books/Learning Go/00_Setting up your go environment.md",
     "05_books/Zero Trust Networks/Zero Trust Networks.md",
-    "05_books/Staff Engineer - Leadership beyond the management track/Staff Engineer - Leadership beyond the management track.md",
     "04_courses/Epic Web",
     "04_courses/KodeKloud/Golang",
     "04_courses/Epic React/React Fundamentals",
     "04_courses/Three Dots Labs Academy",
-    "04_courses/fireshiv.dev",
+    "04_courses/fireship.dev",
     "04_courses/KodeKloud",
     "04_courses/Epic React",
     "03_assets/Pasted image 20251009120028.png",
@@ -297,7 +312,6 @@
     "03_assets/Pasted image 20260314172008.png",
     "03_assets/Pasted image 20260311142733.png",
     "03_assets/Pasted image 20260311141051.png",
-    "03_assets/Pasted image 20260311134517.png",
-    "03_assets/Pasted image 20260311134008.png"
+    "03_assets/Pasted image 20260311134517.png"
   ]
 }
