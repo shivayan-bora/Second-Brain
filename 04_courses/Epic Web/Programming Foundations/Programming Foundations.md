@@ -9,3 +9,4 @@ status:
 ---
 - [[00_Expressions and Outputs]]
 - [[01_Variables and Immutability]]
+- [[02_Primitive Types]]

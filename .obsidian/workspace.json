@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80e51958347a3bb9",
+            "id": "274a96d28c9aac45",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +22,35 @@
             }
           },
           {
-            "id": "62ac54b115e8acfd",
+            "id": "5e2a83f0525877ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
+                "file": "04_courses/Epic Web/Programming Foundations/02_Primitive Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Variables and Immutability"
+              "title": "02_Primitive Types"
             }
           },
           {
-            "id": "0572728cb101d946",
+            "id": "28890a7a9719d51b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05_books/Eloquent JavaScript/Eloquent JavaScript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eloquent JavaScript"
+            }
+          },
+          {
+            "id": "ae6d474621435491",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,37 +62,9 @@
               "icon": "lucide-file",
               "title": "Build your own HTTP Server in TypeScript"
             }
-          },
-          {
-            "id": "1670d9609207f54a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_courses/KodeKloud/Golang/Golang.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Golang"
-            }
-          },
-          {
-            "id": "0c6a78a954377667",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_courses/KodeKloud/Golang/01_Data Type and Variables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01_Data Type and Variables"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.51103591918945,
-    "collapsed": true
+    "width": 286.51103591918945
   },
   "right": {
     "id": "36b4643377f61956",
@@ -265,14 +250,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "62ac54b115e8acfd",
+  "active": "d33279f293e0f289",
   "lastOpenFiles": [
-    "04_courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
-    "04_courses/Epic Web/Programming Foundations/Programming Foundations.md",
-    "04_courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
+    "Clippings/Beej's Guide to C Programming 1.md",
+    "Clippings/Beej's Guide to C Programming.md",
+    "05_books/Eloquent JavaScript/00_Introduction.md",
+    "Clippings",
+    "05_books/Eloquent JavaScript/Eloquent JavaScript.md",
+    "04_courses/Epic Web/Programming Foundations/02_Primitive Types.md",
     "01_projects/Build your own HTTP Server in TypeScript.md",
+    "04_courses/Epic Web/Programming Foundations/Programming Foundations.md",
+    "04_courses/Epic React/React Fundamentals/02_Using JSX.md",
+    "04_courses/Epic React/React Fundamentals/React Fundamentals.md",
+    "05_books/Eloquent JavaScript",
+    "04_courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
+    "04_courses/KodeKloud/KodeKloud.md",
     "04_courses/KodeKloud/Golang/01_Data Type and Variables.md",
     "04_courses/KodeKloud/Golang/Golang.md",
+    "04_courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
     "04_courses/Total TypeScript/00_Kickstart your TypeScript Setup.md",
     "04_courses/Total TypeScript/TypeScript Pro Essentials.md",
     "04_courses/Total TypeScript/Total TypeScript.md",
@@ -281,29 +276,19 @@
     "04_courses/Three Dots Labs Academy/Go in One Evening/07_errors.md",
     "04_courses/Three Dots Labs Academy/Go in One Evening/02_functions.md",
     "04_courses/Three Dots Labs Academy/Go in One Evening/Go in One Evening.md",
-    "04_courses/Epic React/React Fundamentals/02_Using JSX.md",
-    "04_courses/Epic React/React Fundamentals/React Fundamentals.md",
     "04_courses/KodeKloud/Golang/00_Introduction.md",
     "04_courses/Epic Web/Epic Web.md",
     "CLAUDE.md",
     "AGENTS.md",
-    "04_courses/KodeKloud/KodeKloud.md",
     "04_courses/Three Dots Labs Academy/Three Dots Labs Academy.md",
     "04_courses/KodeKloud/AWS For Beginners with Hands-On LabsUntitled/AWS For Beginners with Hands-On Labs.md",
     "04_courses/KodeKloud/AWS For Beginners with Hands-On LabsUntitled",
     "04_courses/Epic Web/Programming Foundations",
-    "04_courses/Epic React/Epic React.md",
-    "04_courses/fireship.dev/fireship.dev.md",
-    "04_courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md",
-    "05_books/Learning Go/00_Setting up your go environment.md",
-    "05_books/Zero Trust Networks/Zero Trust Networks.md",
     "04_courses/Epic Web",
     "04_courses/KodeKloud/Golang",
     "04_courses/Epic React/React Fundamentals",
     "04_courses/Three Dots Labs Academy",
     "04_courses/fireship.dev",
-    "04_courses/KodeKloud",
-    "04_courses/Epic React",
     "03_assets/Pasted image 20251009120028.png",
     "03_assets/Pasted image 20260314174308.png",
     "03_assets/Pasted image 20260314174131.png",

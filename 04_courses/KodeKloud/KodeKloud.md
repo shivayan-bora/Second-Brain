@@ -5,5 +5,3 @@ tags:
   - platform
 source: https://learn.kodekloud.com/
 ---
-- [[Golang]]
-- [[AWS For Beginners with Hands-On Labs]]
