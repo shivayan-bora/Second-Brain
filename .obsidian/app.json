@@ -3,8 +3,8 @@
   "showLineNumber": true,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "08_assets",
+  "attachmentFolderPath": "assets",
   "promptDelete": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "strictLineBreaks": true
 }

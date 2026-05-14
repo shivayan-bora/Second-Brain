@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiImages",
-      "LiBookOpen",
-      "LiSchool",
-      "LiSquareStack",
-      "LiGitGraph"
+      "LiBot",
+      "LiVideo",
+      "LiNotepadText",
+      "LiBook",
+      "LiTangent"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,14 +34,19 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "01_projects": "LiWrench",
-  "copilot": "🤖",
+  "copilot": "LiBot",
   "00_inbox": "LiInbox",
   "03_knowledge": "LiGitGraph",
   "02_areas": "LiSquareStack",
-  "04_courses": "LiSchool",
-  "06_templates": "LiNotepadTextDashed",
   "07_archive": "LiArchive",
-  "05_books": "LiBookOpen",
-  "08_assets": "LiImages"
+  "assets": "LiImages",
+  "templates": "LiNotepadTextDashed",
+  "raw": "LiListTree",
+  "wiki": "LiTangent",
+  "raw/projects": "LiWrench",
+  "raw/books": "LiBookOpen",
+  "raw/courses": "LiSchool",
+  "raw/documentation": "LiBook",
+  "raw/articles": "LiNotepadText",
+  "raw/videos": "LiVideo"
 }
