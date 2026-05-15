@@ -166,6 +166,9 @@ function MyButton() {
 
 ## Hooks
 
+- Functions starting with `use` are called [[React Hooks|hooks]] e.g. below we have an example of `useState` hook which allows us to add state to our component.
+- Hooks are more restrictive than regular functions, they can only be called at the top level of a component or from other hooks, and not inside loops, conditions or nested functions.
+
 ### Updating the screen
 
 - Often times, you'll want your component to `remember` some information and display it. e.g. maybe you want to count the number of times a button was clicked.
@@ -176,5 +179,47 @@ import { useState } from "react";
 
 function MyButton() {
   const [count, setCount] = useState(0);
+
+  const handleClick = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <button onClick={handleClick}>
+      Clicked {count} {count === 1 ? "time" : "times"}
+    </button>
+  );
 }
+```
+
+- `useState` returns an array with two items: the current state value and a function to update it.
+- We can use array destructuring to assign them to `count` and `setCount` variables.
+
+## Sharing data between components
+
+- To pass down data from a parent component to a child component, we can use **props**:
+
+```tsx
+function App() {
+  const [count, setCount] = useState(0);
+
+  const handleClick = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
+    </div>
+  );
+}
+
+const MyButton = ({ count, onClick }) => {
+  return (
+    <button onClick={onClick}>
+      Clicked {count} {count === 1 ? "time" : "times"}
+    </button>
+  );
+};
 ```
