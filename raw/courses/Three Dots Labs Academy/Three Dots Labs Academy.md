@@ -6,4 +6,3 @@ tags:
 source: https://academy.threedots.tech
 ---
 - [[Go in One Evening]]
-- 
