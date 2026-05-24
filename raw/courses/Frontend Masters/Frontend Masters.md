@@ -6,5 +6,10 @@ tags:
 source: https://frontendmasters.com/dashboard/
 status:
   - in-progress
+aliases: []
+id: Frontend Masters
 ---
+
 - [[Mastering Chrome Developer Tools, v4]]
+- [[Enterprise UI Development]]
+- [[A Tour of JavaScript and React Patterns]]

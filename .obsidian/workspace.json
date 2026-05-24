@@ -13,15 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
+                "file": "raw/courses/Build UI/Build UI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Expressions and Outputs"
+              "title": "Build UI"
+            }
+          },
+          {
+            "id": "7dbe35a7e3878421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/courses/Build UI/Advanced Radix UI/Advanced Radix UI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Advanced Radix UI"
+            }
+          },
+          {
+            "id": "c4c2d1e9b33beb35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/courses/Build UI/Advanced Radix UI/03_Animated Toast.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_Animated Toast"
+            }
+          },
+          {
+            "id": "68e48499458118b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/courses/Build UI/Advanced Radix UI/02_iOS Slider.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02_iOS Slider"
+            }
+          },
+          {
+            "id": "eecf29237f647fe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/courses/Build UI/Advanced Radix UI/01_Apple Selector Group.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_Apple Selector Group"
+            }
+          },
+          {
+            "id": "adad65b113d7d87a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/courses/Build UI/Advanced Radix UI/00_Animated Switch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00_Animated Switch"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -197,8 +268,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7be6bb502da0ef15",
+  "active": "adad65b113d7d87a",
   "lastOpenFiles": [
+    "raw/courses/Build UI/Advanced Radix UI/01_Apple Selector Group.md",
+    "raw/courses/Build UI/Advanced Radix UI/03_Animated Toast.md",
+    "raw/courses/Build UI/Advanced Radix UI/Advanced Radix UI.md",
+    "raw/courses/Build UI/Build UI.md",
+    "raw/courses/Build UI/Advanced Radix UI/02_iOS Slider.md",
+    "raw/courses/Build UI/Advanced Radix UI/00_Animated Switch.md",
+    "raw/courses/Build UI/Advanced Radix UI",
+    "raw/documentation/radix.ui/radix.ui.md",
+    "raw/courses/Build UI",
+    "shadcn",
+    "raw/documentation/radix.ui/radix.ui.md~",
+    "raw/courses/Epic Web/Programming Foundations/00_Expressions and Outputs.md",
     "raw/courses/Epic Web/Programming Foundations/01_Variables and Immutability.md",
     "raw/courses/fireship.dev/react.gg/00_The Big Picture.md",
     "raw/books/Staff Engineer - Leadership beyond the management track/Staff Engineer - Leadership beyond the management track.md",
@@ -222,24 +305,12 @@
     "assets/Pasted image 20260518193440.png",
     "raw/documentation/Tour of Go/Tour of Go.md",
     "raw/documentation/Tour of Go/00_Packages, Variables and Functions.md",
-    "raw/documentation/nx.dev/nx.dev.md",
-    "raw/documentation/nx.dev/Introduction to Nx.md",
-    "raw/documentation/nx.dev/Explore Nx - Video Course.md",
-    "raw/documentation/nx.dev/Crafting your first Nx Workspace.md",
-    "raw/documentation/nx.dev/Monorepos for Developers.md",
     "raw/documentation/nx.dev",
     "assets/Pasted image 20260517191447.png",
     "raw/videos/Monorepos for Developers.md~",
-    "raw/books/Zero Trust Networks/Zero Trust Networks.md",
     "assets/Pasted image 20260517153334.png",
-    "raw/documentation/react.dev/01_Thinking in React.md",
-    "raw/documentation/react.dev/1778669780-WPWJ.md",
     "raw/videos",
     "raw/articles",
-    "raw/documentation",
-    "raw",
-    "wiki",
-    "04_courses/react.dev/Untitled",
     "assets/Pasted image 20260424213042.png",
     "03_assets/Pasted image 20251009120028.png",
     "03_assets/Pasted image 20260314174308.png",
