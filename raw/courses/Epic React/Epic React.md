@@ -4,5 +4,9 @@ modification date: Tuesday 21st April 2026 11:59:32
 tags:
   - platform
 source: https://www.epicreact.dev/
+aliases: []
+id: Epic React
 ---
+
 - [[React Fundamentals]]
+- [[Advanced React Patterns]]

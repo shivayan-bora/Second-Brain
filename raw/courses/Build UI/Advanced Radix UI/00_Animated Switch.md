@@ -10,12 +10,12 @@ id: 00_Animated Switch
 ---
 
 - [[Radix UI]] provides the behaviour and accessibility for the Switch component, but it is up to us to add the styling and animation.
-  - It is unopinionated in terms of style.
+	- It is unopinionated in terms of style.
 - Apart from that, we can only download the package we need, e.g., we can run just `pnpm install @radix-ui/react-switch` to just install the `Switch` primitive.
-  - That being said, even if we install all the components, Radix UI is [[Tree-Shaking|tree-shakeable]].
+	- That being said, even if we install all the components, Radix UI is [[Tree-Shaking|tree-shakeable]].
 - On toggling this, we have a [[Data Attributes|data attribute]], `data-state`, that gets toggled and we can add custom styles based on that toggle using [[Tailwind CSS]]: `data-[state=checked]:bg-sky-500`.
 - We can use pseudo classes like `hover`, `focus` and `active` states by using `active:bg-sky-500` and `focus:bg-sky-500` etc.
-  - `focus-visible`: used when the focus state is achieved using a keyboard.
+	- `focus-visible`: used when the focus state is achieved using a keyboard.
 
 ```tsx
 import * as Switch from "@radix-ui/react-switch";

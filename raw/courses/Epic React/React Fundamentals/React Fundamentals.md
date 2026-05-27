@@ -6,10 +6,14 @@ tags:
 source: https://github.com/epicweb-dev/react-fundamentals
 status:
   - in-progress
+aliases: []
+id: React Fundamentals
 ---
+
 - [[00_Hello World in JS]]
 - [[01_Raw React APIs]]
 - [[02_Using JSX]]
 - [[03_Custom Components]]
 - [[04_TypeScript]]
 - [[05_Styling]]
+- [[06_Forms]]
