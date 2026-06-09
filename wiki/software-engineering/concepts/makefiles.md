@@ -3,10 +3,10 @@ title: Makefiles
 pillar: software-engineering
 type: concept
 tags: [build-system, tooling, make]
-status: in-progress
+status: stable
 sources: ["[[learning-go-ch00-environment-setup]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Makefiles

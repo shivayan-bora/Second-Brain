@@ -3,10 +3,10 @@ title: Primitive Types
 pillar: software-engineering
 type: concept
 tags: [programming, type-systems, javascript, typescript, fundamentals]
-status: in-progress
+status: stable
 sources: ["[[epic-web-pf-02-primitive-types]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Primitive Types

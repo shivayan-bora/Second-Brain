@@ -3,10 +3,10 @@ title: Go Variables
 pillar: software-engineering
 type: concept
 tags: [go, variables, types, constants, scoping]
-status: in-progress
-sources: ["[[three-dots-labs-go-01-variables]]"]
+status: stable
+sources: ["[[three-dots-labs-go-01-variables]]", "[[learn-go-with-tests-01-hello-world]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Variables
@@ -114,3 +114,4 @@ func main() {
 ## Sources
 
 - [[three-dots-labs-go-01-variables]] (`raw/courses/Three Dots Labs Academy/Go in One Evening/01_variables.md`)
+- [[learn-go-with-tests-01-hello-world]] — concrete grouped-const example (english/spanish/french hello-prefix block).

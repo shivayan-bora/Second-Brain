@@ -3,10 +3,10 @@ title: TypeScript vs JavaScript
 pillar: software-engineering
 type: concept
 tags: [typescript, javascript, language-design, tooling]
-status: in-progress
+status: stable
 sources: ["[[total-typescript-00-setup]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # TypeScript vs JavaScript

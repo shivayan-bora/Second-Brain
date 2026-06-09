@@ -3,10 +3,10 @@ title: createRoot (react-dom/client)
 pillar: software-engineering
 type: concept
 tags: [react, react-dom, rendering]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-01-raw-react-apis]]", "[[react-dev-00-quick-start]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # `createRoot` (from `react-dom/client`)

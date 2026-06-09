@@ -3,10 +3,10 @@ title: Go Slices
 pillar: software-engineering
 type: concept
 tags: [go, slices, collections, dynamic-arrays]
-status: in-progress
+status: stable
 sources: ["[[three-dots-labs-go-05-slices]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Slices

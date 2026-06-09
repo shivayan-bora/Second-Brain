@@ -3,10 +3,10 @@ title: Programming Languages
 pillar: software-engineering
 type: concept
 tags: [programming, languages, fundamentals]
-status: in-progress
+status: stable
 sources: ["[[eloquent-js-00-introduction]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Programming Languages

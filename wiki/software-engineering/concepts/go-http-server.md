@@ -3,10 +3,10 @@ title: Go HTTP Server (net/http)
 pillar: software-engineering
 type: concept
 tags: [go, http, networking, stdlib, web]
-status: in-progress
+status: stable
 sources: ["[[three-dots-labs-go-03-http-server]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go HTTP Server (`net/http`)

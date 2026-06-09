@@ -3,11 +3,11 @@ title: "Epic React — RF ch04 — TypeScript"
 pillar: software-engineering
 type: summary
 tags: [course, chapter, react, typescript]
-status: in-progress
+status: stable
 source: "raw/courses/Epic React/React Fundamentals/04_TypeScript.md"
 course: "Epic React — React Fundamentals"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Epic React — React Fundamentals — ch04 — TypeScript

@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, go, http, networking]
 status: stable
-source: "raw/courses/Three Dots Labs Academy/Go in One Evening/03_http_server.md"
+former_source: "raw/courses/Three Dots Labs Academy/Go in One Evening/03_http_server.md"
+source_status: deleted
 course: "Three Dots Labs — Go in One Evening"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Three Dots Labs — Go in One Evening 03: HTTP Server
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 Standing up a working HTTP server in a dozen lines using the standard library's `net/http`. Routes via `HandleFunc`, query params via `r.URL.Query()`, custom status codes via `w.WriteHeader`.
 

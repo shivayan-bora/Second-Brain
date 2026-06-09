@@ -3,10 +3,10 @@ title: Immutability (Reassignment vs Mutation)
 pillar: software-engineering
 type: concept
 tags: [programming, language-semantics, immutability, fundamentals]
-status: in-progress
+status: stable
 sources: ["[[epic-web-pf-01-variables-immutability]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Immutability (Reassignment vs Mutation)

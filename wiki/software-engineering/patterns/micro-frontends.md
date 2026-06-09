@@ -3,10 +3,10 @@ title: Micro-Frontends
 pillar: software-engineering
 type: pattern
 tags: [frontend, architecture, micro-frontends, pattern, distributed]
-status: in-progress
+status: stable
 sources: ["[[fm-enterprise-ui-00-architecture-patterns]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Micro-Frontends

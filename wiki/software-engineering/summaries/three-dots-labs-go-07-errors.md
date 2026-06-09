@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, go, errors, error-handling]
 status: in-progress
-source: "raw/courses/Three Dots Labs Academy/Go in One Evening/07_errors.md"
+former_source: "raw/courses/Three Dots Labs Academy/Go in One Evening/07_errors.md"
+source_status: deleted
 course: "Three Dots Labs — Go in One Evening"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Three Dots Labs — Go in One Evening 07: Errors
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 > [!WARNING]
 > The raw source file for this chapter is essentially empty of Go content — it contains an empty code block followed by an unrelated PR description (Karma test fixes). This summary is therefore a **placeholder** that records what the chapter *would* cover based on its title and Go's well-known conventions, pending re-ingest when the user fills in the source.

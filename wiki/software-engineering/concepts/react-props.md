@@ -2,11 +2,11 @@
 title: Props
 pillar: software-engineering
 type: concept
-tags: [react, props, frontend]
-status: in-progress
-sources: ["[[epic-react-rf-01-raw-react-apis]]", "[[epic-react-rf-02-using-jsx]]", "[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]"]
+tags: [react, props, frontend, composition]
+status: stable
+sources: ["[[epic-react-rf-01-raw-react-apis]]", "[[epic-react-rf-02-using-jsx]]", "[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]", "[[epic-react-arp-00-composition]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Props
@@ -100,12 +100,43 @@ function Calculator({ left = 0, operator = '+', right = 0 }: CalculatorProps) {
 }
 ```
 
+### Passing React elements as props
+
+A prop's value doesn't have to be data — it can be a fully-constructed React element. This is the mechanism that powers [[react-composition|composition]] and [[react-layout-components|layout components]]:
+
+```tsx
+function App() {
+  const [count, setCount] = useState(0);
+  return (
+    <Card
+      header={<h2>Counter</h2>}
+      body={<button onClick={() => setCount(c => c + 1)}>{count}</button>}
+    />
+  );
+}
+
+function Card({ header, body }: { header: React.ReactNode; body: React.ReactNode }) {
+  return (
+    <div className="card">
+      <div className="card-header">{header}</div>
+      <div className="card-body">{body}</div>
+    </div>
+  );
+}
+```
+
+`Card` doesn't know about `count` or `setCount`. The element is built where the state lives; `Card` just renders it in the right slot. This is the primary alternative to [[prop-drilling]] and to over-eager `useContext`.
+
+The `children` prop is just the most-syntactically-sugared version of the same pattern — it's special only because JSX gives the element body implicit syntax.
+
 ## Related
 
 - [[react-components]] — what receives props.
 - [[react-jsx]] — the syntax for passing them.
 - [[react-typescript]] — typing props with `MessageProps`, `React.ReactNode`, etc.
 - [[react-hooks]] — `useState` is the source of values that flow back down as props.
+- [[react-composition]] — the pattern that uses props-as-elements.
+- [[prop-drilling]] — the alternative composition often replaces.
 
 ## Sources
 
@@ -113,3 +144,4 @@ function Calculator({ left = 0, operator = '+', right = 0 }: CalculatorProps) {
 - [[epic-react-rf-02-using-jsx]] (`raw/courses/Epic React/React Fundamentals/02_Using JSX.md`)
 - [[epic-react-rf-03-custom-components]] (`raw/courses/Epic React/React Fundamentals/03_Custom Components.md`)
 - [[react-dev-00-quick-start]] (`raw/documentation/react.dev/00_Quick Start.md`)
+- [[epic-react-arp-00-composition]] (`raw/courses/Epic React/Advanced React Patterns/00_Composition.md`) — passing React elements as props.

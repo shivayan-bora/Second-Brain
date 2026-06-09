@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, go, functions]
 status: stable
-source: "raw/courses/Three Dots Labs Academy/Go in One Evening/02_functions.md"
+former_source: "raw/courses/Three Dots Labs Academy/Go in One Evening/02_functions.md"
+source_status: deleted
 course: "Three Dots Labs — Go in One Evening"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Three Dots Labs — Go in One Evening 02: Functions
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 Function declaration, parameters (including same-type parameter shorthand), single and multiple return values, and destructuring of multi-return into local variables.
 

@@ -3,10 +3,10 @@ title: Go Arrays
 pillar: software-engineering
 type: concept
 tags: [go, arrays, collections, fixed-size]
-status: in-progress
+status: stable
 sources: ["[[three-dots-labs-go-04-arrays]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Arrays

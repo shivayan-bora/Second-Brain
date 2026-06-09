@@ -3,10 +3,10 @@ title: React Hooks
 pillar: software-engineering
 type: concept
 tags: [react, hooks, state]
-status: in-progress
+status: stable
 sources: ["[[react-dev-00-quick-start]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # React Hooks

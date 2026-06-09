@@ -3,10 +3,10 @@ title: Go Packages
 pillar: software-engineering
 type: concept
 tags: [go, packages, imports, namespacing]
-status: in-progress
-sources: ["[[three-dots-labs-go-00-hello]]", "[[tour-of-go-00-packages]]"]
+status: stable
+sources: ["[[three-dots-labs-go-00-hello]]", "[[tour-of-go-00-packages]]", "[[learn-go-with-tests-01-hello-world]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Packages
@@ -74,3 +74,4 @@ func main() {
 
 - [[three-dots-labs-go-00-hello]] (`raw/courses/Three Dots Labs Academy/Go in One Evening/00_hello.md`)
 - [[tour-of-go-00-packages]] (`raw/documentation/Tour of Go/00_Packages.md`)
+- [[learn-go-with-tests-01-hello-world]] — capitalization rule reinforced: `Hello` (exported, testable) vs `assertCorrectMessage` and `greetingPrefix` (unexported helpers).

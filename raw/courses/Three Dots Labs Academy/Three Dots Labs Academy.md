@@ -4,5 +4,6 @@ modification date: Wednesday 22nd April 2026 08:07:10
 tags:
   - platform
 source: https://academy.threedots.tech
+aliases: []
+id: Three Dots Labs Academy
 ---
-- [[Go in One Evening]]

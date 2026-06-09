@@ -3,10 +3,10 @@ title: JSX
 pillar: software-engineering
 type: concept
 tags: [react, jsx, syntax, babel]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-02-using-jsx]]", "[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # JSX

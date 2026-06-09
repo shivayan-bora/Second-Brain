@@ -2,11 +2,11 @@
 title: Go Functions
 pillar: software-engineering
 type: concept
-tags: [go, functions, multiple-return-values]
-status: in-progress
-sources: ["[[three-dots-labs-go-02-functions]]"]
+tags: [go, functions, multiple-return-values, named-returns]
+status: stable
+sources: ["[[three-dots-labs-go-02-functions]]", "[[learn-go-with-tests-01-hello-world]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Functions
@@ -73,6 +73,29 @@ This is the substrate of Go's `(result, error)` convention — see [[go-error-ha
 
 The course's examples (`Hello`, `Add`, `FullName`) are all exported by virtue of their capital first letters; in real code, helpers stay lowercase unless they're intended as public API.
 
+### Named returns
+
+A return value can be **named** in the signature, which declares a local variable of that type and lets a bare `return` send it back:
+
+```go
+func greetingPrefix(language string) (prefix string) {
+    switch language {
+    case "Spanish":
+        prefix = "Hola, "
+    case "French":
+        prefix = "Bonjour, "
+    default:
+        prefix = "Hello, "
+    }
+    return  // returns prefix
+}
+```
+
+- `(prefix string)` both names the return value and declares its type.
+- A bare `return` (no expression) returns whatever the named variable currently holds.
+- Named returns are most useful in short functions where the name documents intent, and in `defer`-heavy code where you want to modify the return value before the function exits.
+- Overuse hurts readability — in long functions, prefer explicit `return value`.
+
 ## Examples
 
 Defining and calling a function with multiple returns:
@@ -108,3 +131,4 @@ func FullName() (string, string) {
 ## Sources
 
 - [[three-dots-labs-go-02-functions]] (`raw/courses/Three Dots Labs Academy/Go in One Evening/02_functions.md`)
+- [[learn-go-with-tests-01-hello-world]] — named returns and same-type parameter shorthand examples.

@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, go, control-flow]
 status: stable
-source: "raw/courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md"
+former_source: "raw/courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md"
+source_status: deleted
 course: "Three Dots Labs — Go in One Evening"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Three Dots Labs — Go in One Evening 06: Conditionals
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 `if / else if / else` and `switch / case` in Go. Two small but consequential syntactic choices: **no parentheses around `if` conditions**, and **no fallthrough by default in `switch`**.
 

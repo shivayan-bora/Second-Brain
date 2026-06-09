@@ -3,10 +3,10 @@ title: TCP Sockets (in Node.js)
 pillar: software-engineering
 type: concept
 tags: [tcp, networking, node, protocols]
-status: in-progress
+status: stable
 sources: ["[[project-byo-http-server-typescript]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # TCP Sockets (in Node.js)

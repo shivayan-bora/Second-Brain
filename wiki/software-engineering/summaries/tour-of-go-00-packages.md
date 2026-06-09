@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [documentation, chapter, go, packages]
 status: stable
-source: "raw/documentation/Tour of Go/00_Packages.md"
+former_source: "raw/documentation/Tour of Go/00_Packages.md"
+source_status: deleted
 documentation: "Tour of Go"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Tour of Go 00 — Packages
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 The opening page of the official *Tour of Go*. Reinforces the same point as [[three-dots-labs-go-00-hello]]: a Go program is a tree of packages, with `package main` as the entry point.
 

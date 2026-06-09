@@ -3,11 +3,11 @@ title: "react.dev — Quick Start"
 pillar: software-engineering
 type: summary
 tags: [documentation, react, quickstart]
-status: in-progress
+status: stable
 source: "raw/documentation/react.dev/00_Quick Start.md"
 documentation: "react.dev"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # react.dev — Quick Start

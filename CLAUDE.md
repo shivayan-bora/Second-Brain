@@ -62,10 +62,19 @@ updated: 2026-05-17
 ---
 ```
 
+#### `source:` / `former_source:` / `points-to:` conventions
+
+- **`source:`** — the canonical raw-side counterpart of a wiki page. Should be **unique per raw file**: at most one wiki page claims a given raw path. Summaries always have one; concepts and patterns usually don't (they cite their feeding summaries via `sources:` instead).
+- **`former_source:` + `source_status: deleted`** — when a raw source has been removed from the vault but the wiki notes are retained, replace `source:` with this pair. The wiki page is "orphaned from its raw" but still valuable as a record of prior understanding. Add a `> [!NOTE] Raw source deleted` callout in the body pointing at the change.
+- **`points-to:`** — for **hub-summary pages** (tagged `[hub]`) whose underlying raw is *also* already covered by a substantive summary. The hub becomes a pointer page that aliases the substantive summary; it does not claim `source:` (uniqueness preserved). The body is a brief navigation alias rather than a full hub catalog. See [[pnpm-io-hub]], [[radix-ui-hub]], [[fm-design-systems-storybook-v2-hub]] for the pattern in practice.
+
+In short: every raw file is claimed by at most one wiki page (via `source:`), and the wiki graph is the source of truth for which raw is currently live vs. deleted vs. summarized-elsewhere.
+
 ### Wikilinks
 - Use `[[page-name]]` or `[[page-name|display text]]` everywhere inside `wiki/`. This matches the user's existing Obsidian style in `raw/`.
 - Prefer wikilinks over markdown links for internal references.
 - Write `[[link]]` even when the target page doesn't exist yet. Orphan links surface gaps; the lint pass catches them.
+- **Raw-side cross-vault links are allowed.** Brand or hub references like `[[TypeScript]]`, `[[React]]`, `[[Node.js]]`, `[[Eloquent JavaScript]]`, `[[Learning Go]]`, `[[CLAUDE]]`, `[[babel]]` resolve to raw-side hub files (or the schema), not wiki pages. The lint pass should categorize these separately rather than flag them as "missing wiki pages." Convention: use the raw file's existing title verbatim (PascalCase, spaces preserved).
 
 ### Tags (extend the user's existing taxonomy in `raw/`)
 - Source-type tags carried over: `book`, `chapter`, `article`, `course`, `video`, `documentation`, `project`.

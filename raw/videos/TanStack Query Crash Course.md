@@ -65,7 +65,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 // Backbone of your TanStack Query
 // Without this, the hooks won't know how to query the data
 // Should exist outside of a React Component
-//
 const queryClient = new QueryClient();
 
 createRoot(document.getElementById("root")!).render(
@@ -635,4 +634,155 @@ const Card = ({ id }: { id: number }) => {
 };
 
 export default App;
+```
+
+## Query Key and Caching
+
+- TanStack Query caches query data and uses `queryKey` to uniquely identify a query data.
+
+![[Pasted image 20260601090917.png]]
+
+- Everytime we hit a query with a `queryKey`, TanStack Query will lookup in the cache if a query with the same key exists or not.
+  - If it does, it fetches the data from that cache back to the consumer.
+  - If not, TanStack Query calls the `queryFn` to fetch the data and then stores it in the cache with the same `queryKey`.
+- The `QueryClient` is responsible for this caching and hence, we need to pass it via a `QueryClientProvider` to the root of our application.
+
+### Fresh and Stale Data
+
+- The data stored in the cache can be of two types of state.
+  - Fresh: The data was recently added to the cache and can be sent back to the consumer.
+  - Stale: The data has passed it's validity and needs to be refetched.
+
+![[Pasted image 20260601091521.png]]
+
+![[Pasted image 20260601091554.png]]
+
+- So how do we determine if data is **fresh** or **stale**?
+- Take a look at the below code:
+
+```tsx
+const App = () => {
+  const {data, isLoading, isError, error} = useQuery({
+    queryKey: ['users'],
+    queryFn: () => getUsers()
+  })
+
+  if(isError) {
+    return <div>An Error Occurred: {error}</div>
+  }
+
+  return (
+    isLoading ?
+      <div>Loading...</Loading>
+    : <div>{JSON.stringify(data)}</div>
+  )
+}
+```
+
+- If apart from `queryKey` and `queryFn`, nothing else is passed, the query data will be stale by default.
+- So how can I make my data fresh?
+
+```tsx
+const App = () => {
+  const {data, isLoading, isError, error} = useQuery({
+    queryKey: ['users'],
+    queryFn: () => getUsers(),
+    staleTime: 60000, // 👈 How much time in milliseconds will the data stay fresh for i.e. 1m in this case
+  })
+
+  if(isError) {
+    return <div>An Error Occurred: {error}</div>
+  }
+
+  return (
+    isLoading ?
+      <div>Loading...</Loading>
+    : <div>{JSON.stringify(data)}</div>
+  )
+}
+```
+
+- In above example, after 1 min, the data will be marked as stale after one minute.
+
+![[Pasted image 20260601092506.png]]
+
+- If we were to query within 30s, TanStack Query will fetch the data from the cache:
+
+![[Pasted image 20260601093010.png]]
+
+- After 60s more i.e. at 90s, the data is stale, so TanStack Query will invoke the `queryFn` again to fetch the data:
+
+![[Pasted image 20260601092947.png]]
+
+- This is also known as Cache Invalidation.
+- When should you add `staleTime` vs when should you allow the default behaviour?
+  - Real-time or frequently updating data: default behaviour
+  - Data that doesn't need real-time active data updates: add stale time
+- You can also mark data with `staleTime: Infinity`, this will make sure that the `queryFn` is invoked only once and never get invoked again, i.e. the data is always fresh and fetched from the cache even if you were to invoke `refetch`.
+- You can however, trigger query invalidation manually as shown below.
+
+### Query Invalidation
+
+- Query invalidation is used to manually mark data as `stale` to trigger a `refetch`.
+
+```jsx
+const App = () => {
+  const { data: users } = useQuery(createUsersQueryOptions())
+  const queryClient = useQueryClient() // 👈 You need to get the query client from the context provider
+
+  const handleCreate =  async () => {
+    const user = {
+      ...
+    }
+
+    await createUser(user)
+    queryClient.invalidateQueries({queryKey: ['users']}) // 👈 Is an array to invalidate all necessary queries
+    // Can also be written as:
+    // queryClient.invalidateQuerys({queryKey: createUsersQueryOptions().queryKey })
+  }
+}
+```
+
+- `invalidateQueries` does two things:
+  - Marks the query in question as stale.
+  - Asks the question, is this query actively being used in our application?
+    - If yes, then it will trigger a `refetch` of that query.
+    - If no, then on the next call of that query, `queryClient` won't provide the data from the cache but call the `queryFn` to fetch fresh data.
+- If you have any query that makes a change in the database like create, delete or update, then you should mark it's dependent query as stale so that fresh data can be fetched from the server.
+- If you don't specify the `queryKey` to tell which query to invalidate, it will invalidate the entire cache: `queryClient.invalidateQueries()`
+
+## Mutations
+
+- For create, update and delete operations, TanStack Query provides a `useMutation` hook.
+
+```ts
+const { mutate, isLoading, isError } = useMutation({
+  mutationFn: (user: Omit<User, "_id">) => createUser(user),
+});
+
+mutate(user);
+```
+
+- Mutation side effects:
+
+```ts
+useMutation({
+  mutationFn: addTodo,
+  onMutate: (variables, context) => {
+    // A mutation is about to happen!
+
+    // Optionally return a result containing data to use when for example rolling back
+    return { id: 1 };
+  },
+  onError: (error, variables, onMutateResult, context) => {
+    // An error happened!
+    console.log(`rolling back optimistic update with id ${onMutateResult.id}`);
+  },
+  onSuccess: (data, variables, onMutateResult, context) => {
+    // Boom baby!
+  },
+  onSettled: (data, error, variables, onMutateResult, context) => {
+    // Error or success... doesn't matter!
+  },
+});
 ```

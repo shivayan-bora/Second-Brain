@@ -3,10 +3,10 @@ title: Variables (as Named Bindings)
 pillar: software-engineering
 type: concept
 tags: [programming, language-semantics, fundamentals, memory-model]
-status: in-progress
+status: stable
 sources: ["[[epic-web-pf-01-variables-immutability]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Variables (as Named Bindings)

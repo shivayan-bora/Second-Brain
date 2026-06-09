@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiImages",
       "LiBot",
       "LiVideo",
       "LiNotepadText",
-      "LiBook",
-      "LiTangent"
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,7 +39,6 @@
   "03_knowledge": "LiGitGraph",
   "02_areas": "LiSquareStack",
   "07_archive": "LiArchive",
-  "assets": "LiImages",
   "templates": "LiNotepadTextDashed",
   "raw": "LiListTree",
   "wiki": "LiTangent",
@@ -48,5 +47,6 @@
   "raw/courses": "LiSchool",
   "raw/documentation": "LiBook",
   "raw/articles": "LiNotepadText",
-  "raw/videos": "LiVideo"
+  "raw/videos": "LiVideo",
+  "attachments": "LiImages"
 }

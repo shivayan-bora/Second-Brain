@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, go, slices, collections]
 status: stable
-source: "raw/courses/Three Dots Labs Academy/Go in One Evening/05_slices.md"
+former_source: "raw/courses/Three Dots Labs Academy/Go in One Evening/05_slices.md"
+source_status: deleted
 course: "Three Dots Labs — Go in One Evening"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Three Dots Labs — Go in One Evening 05: Slices
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 Slices are Go's **dynamic-size** sequence type — the everyday workhorse you reach for instead of an [[go-arrays|array]]. Declared without a size: `[]string`.
 

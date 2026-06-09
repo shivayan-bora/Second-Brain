@@ -3,10 +3,10 @@ title: React.createElement
 pillar: software-engineering
 type: concept
 tags: [react, api, frontend]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-01-raw-react-apis]]", "[[epic-react-rf-02-using-jsx]]", "[[epic-react-rf-03-custom-components]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # `React.createElement`

@@ -1,9 +1,14 @@
 ---
-creation date: 2026-04-22 08:06
-modification date: Wednesday 22nd April 2026 08:06:04
+id: fireship.dev
+aliases: []
 tags:
   - platform
+creation date: 2026-06-08 12:09
+modification date: Monday 8th June 2026 12:09:12
 source: https://fireship.dev/
+status:
+  - in-progress
 ---
-- [[Modern JavaScript]]
-- [[react.gg]]
+
+- [[query.gg]]
+- [[Advanced JavaScript]]

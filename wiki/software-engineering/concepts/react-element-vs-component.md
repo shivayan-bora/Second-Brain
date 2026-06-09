@@ -3,10 +3,10 @@ title: React Element vs Component
 pillar: software-engineering
 type: concept
 tags: [react, frontend, mental-model]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-01-raw-react-apis]]", "[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # React Element vs Component

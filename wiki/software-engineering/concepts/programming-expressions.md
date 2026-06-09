@@ -3,10 +3,10 @@ title: Expressions and Statements
 pillar: software-engineering
 type: concept
 tags: [programming, language-semantics, fundamentals]
-status: in-progress
+status: stable
 sources: ["[[epic-web-pf-00-expressions-outputs]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Expressions and Statements

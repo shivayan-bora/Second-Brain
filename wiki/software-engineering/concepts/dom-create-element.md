@@ -3,10 +3,10 @@ title: document.createElement (imperative DOM)
 pillar: software-engineering
 type: concept
 tags: [javascript, dom, web]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-00-hello-world-js]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # `document.createElement` — Imperative DOM

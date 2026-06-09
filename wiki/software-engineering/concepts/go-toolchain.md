@@ -3,10 +3,10 @@ title: Go Toolchain (build / fmt / vet)
 pillar: software-engineering
 type: concept
 tags: [go, tooling, build-system, linting]
-status: in-progress
+status: stable
 sources: ["[[learning-go-ch00-environment-setup]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Toolchain (build / fmt / vet)

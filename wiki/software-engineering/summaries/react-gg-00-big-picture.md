@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [course, chapter, react, stub]
 status: in-progress
-source: "raw/courses/fireship.dev/react.gg/00_The Big Picture.md"
+former_source: "raw/courses/fireship.dev/react.gg/00_The Big Picture.md"
+source_status: deleted
 course: "react.gg (Fireship)"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # react.gg (Fireship) — ch00 — The Big Picture
+
+> [!NOTE] Raw source deleted
+> The raw note for this summary was deleted in a prior vault cleanup; the wiki page is retained as a record. See `former_source` in frontmatter.
 
 > [!NOTE]
 > This raw note is a **stub** — the source file contains only a section heading ("Why React?"), an unfinished sentence, and three external links (two to fireship.dev and one to a private Claude chat). There is no substantive content to summarize yet. This page is a placeholder so the source is registered in the wiki; revisit once the user expands the raw note.

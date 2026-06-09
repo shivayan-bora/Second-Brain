@@ -1,0 +1,14 @@
+{
+  "primaryNotesLocation": "inbox",
+  "dailyNotes": {
+    "enabled": true,
+    "directory": "Daily Notes",
+    "templateId": "builtin.daily"
+  },
+  "weeklyNotes": {
+    "enabled": true,
+    "directory": "Weekly Notes",
+    "templateId": "builtin.weekly"
+  },
+  "folderIcons": {}
+}

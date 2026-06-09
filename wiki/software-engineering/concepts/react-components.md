@@ -2,11 +2,11 @@
 title: React Components
 pillar: software-engineering
 type: concept
-tags: [react, components, frontend]
-status: in-progress
-sources: ["[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]", "[[epic-react-rf-04-typescript]]"]
+tags: [react, components, frontend, composition]
+status: stable
+sources: ["[[epic-react-rf-03-custom-components]]", "[[react-dev-00-quick-start]]", "[[epic-react-rf-04-typescript]]", "[[epic-react-arp-00-composition]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # React Components
@@ -116,6 +116,15 @@ const component = { message }
 </div>
 ```
 
+## Domain components vs layout components
+
+A useful split, surfaced in Epic React's *Advanced Patterns* track:
+
+- **Domain components** care about specific data shapes — `<UserCard user={...} />`, `<OrderSummary order={...} />`. They're meaningful only in one part of your app.
+- **[[react-layout-components|Layout components]]** care about structure, not content — `<TwoColumn left={...} right={...} />`, `<PageShell>{children}</PageShell>`. They're reusable across the app.
+
+Many components start as "domain" and refactor into "layout" once you realize they're really about *where* things go, not *what* they are. [[react-composition|Composition]] is the move that gets you there.
+
 ## Related
 
 - [[react-element-vs-component]] — the conceptual contrast.
@@ -123,9 +132,12 @@ const component = { message }
 - [[react-props]] — the argument shape.
 - [[react-typescript]] — typing components and props.
 - [[react-hooks]] — components are the only place hooks can live.
+- [[react-composition]] — the discipline that turns domain components into layout components.
+- [[react-layout-components]] — the canonical reusable shape.
 
 ## Sources
 
 - [[epic-react-rf-03-custom-components]] (`raw/courses/Epic React/React Fundamentals/03_Custom Components.md`)
 - [[react-dev-00-quick-start]] (`raw/documentation/react.dev/00_Quick Start.md`)
 - [[epic-react-rf-04-typescript]] (`raw/courses/Epic React/React Fundamentals/04_TypeScript.md`)
+- [[epic-react-arp-00-composition]] (`raw/courses/Epic React/Advanced React Patterns/00_Composition.md`) — domain-vs-layout framing.

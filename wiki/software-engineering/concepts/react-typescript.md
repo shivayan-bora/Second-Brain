@@ -3,10 +3,10 @@ title: TypeScript with React
 pillar: software-engineering
 type: concept
 tags: [react, typescript, types]
-status: in-progress
+status: stable
 sources: ["[[epic-react-rf-04-typescript]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # TypeScript with React

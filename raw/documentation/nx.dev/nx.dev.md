@@ -6,8 +6,10 @@ tags:
 source: https://nx.dev/
 status:
   - in-progress
+aliases: []
+id: nx.dev
 ---
-- [[Monorepos for Developers]]
-- [[Introduction to Nx]]
-- [[Explore Nx - Video Course]]
-- [[Crafting your first Nx Workspace]]
+
+- [[00_Introduction to Nx]]
+- [[01_Step by Step Guide to implement Nx]]
+- [[02_From PNPM Workspaces to Distributed CI]]

@@ -3,10 +3,10 @@ title: HTTP Protocol Basics (HTTP/1.1 Wire Format)
 pillar: software-engineering
 type: concept
 tags: [http, networking, protocols, web]
-status: in-progress
+status: stable
 sources: ["[[project-byo-http-server-typescript]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # HTTP Protocol Basics (HTTP/1.1 Wire Format)

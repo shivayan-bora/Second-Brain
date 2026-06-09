@@ -3,11 +3,11 @@ title: "Eloquent JavaScript ch00 — Introduction"
 pillar: software-engineering
 type: summary
 tags: [book, chapter, javascript, programming]
-status: in-progress
+status: stable
 source: "raw/books/Eloquent JavaScript/00_Introduction.md"
 book: "[[Eloquent JavaScript]]"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Eloquent JavaScript ch00 — Introduction

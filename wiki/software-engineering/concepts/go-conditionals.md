@@ -3,10 +3,10 @@ title: Go Conditionals
 pillar: software-engineering
 type: concept
 tags: [go, conditionals, control-flow, if, switch]
-status: in-progress
-sources: ["[[three-dots-labs-go-06-conditionals]]"]
+status: stable
+sources: ["[[three-dots-labs-go-06-conditionals]]", "[[learn-go-with-tests-01-hello-world]]"]
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-09
 ---
 
 # Go Conditionals
@@ -112,3 +112,4 @@ default:
 ## Sources
 
 - [[three-dots-labs-go-06-conditionals]] (`raw/courses/Three Dots Labs Academy/Go in One Evening/06_conditionals.md`)
+- [[learn-go-with-tests-01-hello-world]] — `greetingPrefix` switch with `default` reinforces the no-`break` rule.
