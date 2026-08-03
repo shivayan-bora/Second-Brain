@@ -10,5 +10,5 @@ status:
   - in-progress
 ---
 
-- [[Tailwind CSS Core Concepts]]
+- [[Tailwind CSS Core Concepts Perplexity]]
 - [[Build UIs that dont suck]]

@@ -10,4 +10,4 @@ status:
   - in-progress
 ---
 
-- [[Intro to Storybook]]
+- [[Introduction to Storybook]]

@@ -4,13 +4,17 @@ pillar: software-engineering
 type: summary
 tags: [project, typescript, http, tcp, networking, codecrafters]
 status: in-progress
-source: "raw/projects/Build your own HTTP Server in TypeScript.md"
+former_source: "raw/projects/Build your own HTTP Server in TypeScript.md"
+source_status: deleted
 project: "CodeCrafters — HTTP Server (TypeScript track)"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-13
 ---
 
 # Project — Build Your Own HTTP Server in TypeScript
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 CodeCrafters "Build Your Own X" walkthrough: implement an HTTP/1.1 server from scratch in [[TypeScript]] on top of [[Node.js]]'s `net` module — i.e. starting from raw [[tcp-sockets|TCP sockets]] rather than `http.createServer`. The point is to *feel* the wire format and the protocol boundaries that frameworks normally hide.
 

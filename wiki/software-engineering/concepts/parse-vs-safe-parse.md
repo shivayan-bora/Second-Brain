@@ -100,7 +100,7 @@ return parsed.data;
 
 ## Related
 
-- [[zod]] — the library.
+- [[zod-library|zod]] — the library.
 - [[runtime-type-validation]] — the broader category; both modes are common across validators.
 - [[silent-failure]] _(future)_ — both modes can hide failures; `safeParse` is more error-prone here because it requires the caller to check `.success`.
 

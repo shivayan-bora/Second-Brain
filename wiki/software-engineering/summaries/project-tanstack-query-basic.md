@@ -4,12 +4,16 @@ pillar: software-engineering
 type: summary
 tags: [project, react, tanstack-query, vite, typescript, tailwind]
 status: stable
-source: "raw/projects/tanstack-query basic project.md"
+former_source: "raw/projects/tanstack-query basic project.md"
+source_status: deleted
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-13
 ---
 
 # Project — TanStack Query Basic
+
+> [!NOTE] Raw source deleted
+> The raw note this summary was ingested from has since been deleted from the vault during a cleanup. The wiki page below is retained as a record of the user's prior notes. See `former_source` in frontmatter for the original path.
 
 Hands-on minimal project wiring up Vite + React + TS + Tailwind + ESLint + Prettier + TanStack Query + Axios. Demonstrates the canonical setup and a single `useQuery` call against the dummyjson products API.
 

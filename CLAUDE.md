@@ -175,6 +175,20 @@ A short, evolving overview — your running answer to *"what does the user curre
 - **Preserve the user's voice.** When the user writes a first-person take in a wiki page, keep it clearly attributed (e.g., a `> [!NOTE]- My take` callout) and don't paraphrase the personality out of it.
 - **Respect existing raw conventions.** `[[wikilinks]]`, lowercase tags, `in-progress`/`completed` status in raw files — match these in wiki frontmatter where applicable.
 
+## Agent skills
+
+### Issue tracker
+
+Wiki todos / coverage gaps / open questions tracked as local markdown under `.scratch/<topic>/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: this `CLAUDE.md` *is* the domain doc — no separate `CONTEXT.md` or `docs/adr/`. See `docs/agents/domain.md` for the consumer rules.
+
 ## Schema evolution
 
 This file is meant to grow. When you and the user agree on a new convention mid-session, propose adding it here. When something in this schema turns out to be wrong, propose a change rather than silently deviating.

@@ -23,7 +23,7 @@ TypeScript types are **erased at runtime**. `function getUser(id: string): User`
 
 | Library | Approach | Notes |
 |---|---|---|
-| **[[zod\|Zod]]** | TS-first chained schemas | Most popular; `z.infer` for type derivation |
+| **[[zod-library\|Zod]]** | TS-first chained schemas | Most popular; `z.infer` for type derivation |
 | **Yup** | TS-second, similar API | Predates Zod; common in Formik stack |
 | **io-ts** | Pure functional / fp-ts style | Steeper learning curve |
 | **ArkType** | TS-native syntax | Fastest runtime; newer |
@@ -64,7 +64,7 @@ Inside the trust boundary, TypeScript types alone are enough. Validating interna
 
 ## Related
 
-- [[zod]] — the most common implementation in the TS ecosystem.
+- [[zod-library|zod]] — the most common implementation in the TS ecosystem.
 - [[zod-schema-as-source-of-truth]] — the type-derivation idiom that makes the dual-purpose schema work.
 - [[parse-vs-safe-parse]] — handling validation failures.
 - [[ts-vs-js]] — why static types alone aren't enough.

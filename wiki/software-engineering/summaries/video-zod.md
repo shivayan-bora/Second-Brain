@@ -15,7 +15,7 @@ Wide-coverage Zod walkthrough. Covers schema primitives, object validation modes
 
 ## TL;DR
 
-- **Zod is runtime type-validation** that integrates with TypeScript. Schemas are values you build; `parse(input)` either returns typed data or throws. See [[zod]] and [[runtime-type-validation]].
+- **Zod is runtime type-validation** that integrates with TypeScript. Schemas are values you build; `parse(input)` either returns typed data or throws. See [[zod-library|zod]] and [[runtime-type-validation]].
 - **`parse` vs `safeParse`**: `parse` throws on validation failure; `safeParse` returns `{ success: true, data } | { success: false, error }` — no exception. Pick based on whether you want to brick the caller or branch on it. See [[parse-vs-safe-parse]].
 - **`type T = z.infer<typeof Schema>`** is the *killer feature*. Define the schema once; TypeScript's type and runtime validation share a single source of truth. See [[zod-schema-as-source-of-truth]].
 - Schemas can transform (`.transform()`) and have defaults (`.default(18)`), which creates an **input/output type asymmetry**: use `z.input<typeof S>` for the pre-validation shape and `z.infer<typeof S>` for the post-validation shape.
@@ -49,7 +49,7 @@ Wide-coverage Zod walkthrough. Covers schema primitives, object validation modes
 
 ## Cross-references
 
-- Concepts: [[zod]], [[runtime-type-validation]], [[zod-schema-as-source-of-truth]], [[parse-vs-safe-parse]].
+- Concepts: [[zod-library|zod]], [[runtime-type-validation]], [[zod-schema-as-source-of-truth]], [[parse-vs-safe-parse]].
 - TS bridges: [[ts-vs-js]], [[ts-compiler-tsc]], [[react-typescript]].
 
 ## Source

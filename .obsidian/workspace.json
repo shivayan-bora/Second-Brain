@@ -81,12 +81,10 @@
             "id": "adad65b113d7d87a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "attachments/Pasted image 20260424213042.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260424213042"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -266,8 +264,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d33279f293e0f289",
+  "active": "adad65b113d7d87a",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260424213042.png",
     "templates/Chapter Template.md",
     "raw/courses/Build UI/Advanced Radix UI/00_Animated Switch.md",
     "A Tour of JavaScript & React Patterns.md",
@@ -298,7 +297,6 @@
     "raw/courses/Three Dots Labs Academy/Go in One Evening/00_hello.md",
     "raw/courses/Three Dots Labs Academy/Go in One Evening",
     "raw/courses/Frontend Masters/Enterprise UI Development/00_UI Architecture Patterns.md",
-    "raw/courses/boot.dev/Learn Go/00_Variables in Go.md",
     "raw/courses/boot.dev/Learn Go/00_Variables in Go.md~",
     "attachments/Pasted image 20260518195146.png",
     "attachments/Pasted image 20260518193505.png",
@@ -309,7 +307,6 @@
     "attachments/Pasted image 20260517153334.png",
     "raw/videos",
     "raw/articles",
-    "attachments/Pasted image 20260424213042.png",
     "03_assets/Pasted image 20251009120028.png",
     "03_assets/Pasted image 20260314174308.png",
     "03_assets/Pasted image 20260314174131.png",

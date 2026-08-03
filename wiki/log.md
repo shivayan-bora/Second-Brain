@@ -108,7 +108,7 @@ Entry prefix format: `## [YYYY-MM-DD] {kind} | {short title}` — keeps the log 
 
 - Sources: `raw/courses/animations.dev/00_Animation Theory.md`, `raw/videos/Git Worktree - NetNinja.md`, `raw/videos/Learn Dangerously Fast.md`, `raw/videos/Zod.md`.
 - Software-engineering summaries: [[animations-dev-00-animation-theory]], [[video-git-worktree-netninja]], [[video-zod]].
-- Software-engineering concepts: [[animation-purpose-and-pacing]], [[git-worktree]], [[zod]], [[runtime-type-validation]], [[zod-schema-as-source-of-truth]], [[parse-vs-safe-parse]].
+- Software-engineering concepts: [[animation-purpose-and-pacing]], [[git-worktree]], [[zod-library|zod]], [[runtime-type-validation]], [[zod-schema-as-source-of-truth]], [[parse-vs-safe-parse]].
 - Software-engineering pattern: [[parallel-development-with-worktrees]].
 - **Soft-skills summary**: [[video-learn-dangerously-fast]] (the first soft-skills content in the wiki).
 - **Soft-skills concepts**: [[learning-encoding-and-recall]], [[desirable-difficulty]], [[active-recall]], [[priming-and-schema-building]].
@@ -266,3 +266,26 @@ Added a section under Conventions → Frontmatter documenting:
 - **0 raw files** claimed by multiple wiki `source:` fields — was 3.
 
 All three counters now read 0. Wiki graph is consistent.
+
+## [2026-06-13] lint | Fixed ambiguous zod/Zod wikilink
+
+- Found one case-insensitive basename collision across the vault: wiki concept `zod.md` vs raw note `raw/videos/Zod.md`. Obsidian resolves links by basename, case-insensitively, so every `[[zod]]` (8 in wiki) and `[[Zod]]` (3 in raw) resolved ambiguously to both files.
+- Constraint: raw/ is read-only, so the raw-side ambiguity could only be cleared by removing the colliding wiki filename.
+- Renamed `wiki/software-engineering/concepts/zod.md` → `zod-library.md` (title stays "Zod") via `git mv`.
+- Updated all 8 wiki links to `[[zod-library|zod]]` / `[[zod-library|Zod]]`, preserving display text (synthesis, index, log, parse-vs-safe-parse, runtime-type-validation, zod-schema-as-source-of-truth, video-zod ×2).
+- Result: raw's `[[Zod]]` now resolves uniquely to `raw/videos/Zod.md`; 0 ambiguous links vault-wide.
+
+## [2026-06-13] lint | Reconciled two dangling wiki sources
+
+- Two raw files were deleted (`raw/projects/Build your own HTTP Server in TypeScript.md`, `raw/projects/tanstack-query basic project.md`) but their wiki summaries still carried live `source:` frontmatter pointing at the now-missing paths.
+- Converted both per the `former_source:` + `source_status: deleted` convention:
+  - [[project-byo-http-server-typescript]]
+  - [[project-tanstack-query-basic]]
+- Added the standard `> [!NOTE] Raw source deleted` callout after each H1; bumped `updated:` to 2026-06-13.
+- Verification: 0 live `source:` fields point at a missing raw; all `former_source:` entries resolve to genuinely-absent raws.
+
+## [2026-06-13] lint | Full vault health check
+
+- Ran all six lint checks (orphans, dangling links, stale status, contradictions, missing concepts, coverage gaps).
+- Fixed a regression from the zod ambiguity pass: `runtime-type-validation.md` had a Markdown-table cell `[[zod\|Zod]]` (escaped pipe) that the earlier blanket replace missed; corrected to `[[zod-library\|Zod]]`. Vault now has 0 ambiguous links.
+- Findings reported to user (no other unilateral fixes): 24 orphan pages (23 are by-design source hubs + 1 genuine orphan `react-gg-00-big-picture`), 5 missing-concept candidates (notably [[table-driven-tests]] ×2 summaries), brand-refs categorized separately, and the standing coverage gap: Leadership pillar still empty.

@@ -113,7 +113,7 @@ function SignupForm() {
 
 ## Related
 
-- [[zod]] — the library.
+- [[zod-library|zod]] — the library.
 - [[runtime-type-validation]] — the broader category.
 - [[ts-vs-js]], [[ts-compiler-tsc]] — TS type erasure makes this pattern necessary.
 

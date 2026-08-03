@@ -30,7 +30,7 @@ A clear theme emerged: the user is building a deep mental model of **how modern 
 - **Component libraries** — [[radix-primitives|Radix]], [[headless-component|headless components]], [[compound-component-pattern|compound components]], the [[aschild-and-slot|`asChild`/Slot pattern]].
 - **CSS at scale** — [[utility-first-css|utility-first]] (Tailwind), [[css-custom-properties|CSS variables]], [[design-tokens]] as the unifying abstraction.
 - **Component-driven development** — [[storybook]], [[story|stories]], [[component-driven-development|CDD]] methodology.
-- **Validation at boundaries** — [[zod|Zod]] and [[runtime-type-validation]] as the answer to "TypeScript types are erased at runtime."
+- **Validation at boundaries** — [[zod-library|Zod]] and [[runtime-type-validation]] as the answer to "TypeScript types are erased at runtime."
 - **Workflow tooling** — [[git-worktree]] + [[parallel-development-with-worktrees]] for parallel-stream development.
 
 The unifying through-line: **modern frontend teams ship value by composing well-defined layers** — package management, build orchestration, headless behavior libraries, CSS systems, server-state managers — each replaceable, each opinionated about one thing. The user is building the mental graph of these layers and how they connect.

@@ -58,7 +58,7 @@ Catalog of all wiki pages. Updated on every ingest. Organized by pillar → page
 
 #### TypeScript — Runtime Validation
 
-- [[zod]] — Runtime schema validation library; the canonical answer in the TS ecosystem.
+- [[zod-library|zod]] — Runtime schema validation library; the canonical answer in the TS ecosystem.
 - [[runtime-type-validation]] — The broader category — why TS alone isn't enough at system boundaries.
 - [[zod-schema-as-source-of-truth]] — `z.infer` / `z.input`; schema and type as one declaration.
 - [[parse-vs-safe-parse]] — Zod's two error-handling modes.
