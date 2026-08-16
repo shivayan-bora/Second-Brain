@@ -11,4 +11,3 @@ status:
 ---
 
 - [[query.gg]]
-- [[Advanced JavaScript]]
