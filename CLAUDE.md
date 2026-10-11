@@ -45,6 +45,7 @@ wiki/
 ### Filenames
 - **kebab-case** for wiki pages: `go-modules.md`, `tech-lead-archetype.md`.
 - Source summaries: `{source-slug}-ch{NN}-{topic-slug}.md` for chapters, `{source-slug}.md` for whole sources.
+- **Never reuse a `raw/` basename.** Obsidian resolves `[[name]]` by basename across the whole vault, so a wiki page named like a raw note makes the link ambiguous. Add a type suffix instead (e.g. `double-submit-guard-pattern.md` for `raw/review-comments/double-submit-guard.md`).
 
 ### Frontmatter
 Every wiki page gets YAML frontmatter:
